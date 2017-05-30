@@ -17,10 +17,6 @@
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device_n383bt.mk)
 
-# Device display
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
-
 # Device identifier
 PRODUCT_BRAND := UMIDIGI
 PRODUCT_DEVICE := n383bt
@@ -28,7 +24,3 @@ PRODUCT_MANUFACTURER := UMIDIGI
 PRODUCT_MODEL := C_NOTE
 PRODUCT_NAME := omni_n383bt
 PRODUCT_RELEASE_NAME := "C NOTE"
-
-# Time Zone data for Recovery
-PRODUCT_COPY_FILES += \
-	bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata

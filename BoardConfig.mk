@@ -18,19 +18,8 @@
 LOCAL_PATH := device/umidigi/n383bt
 
 # Device board elements
-include $(LOCAL_PATH)/PlatformConfig.mk
+TARGET_IS_MT6737T := true
 include $(LOCAL_PATH)/board/*.mk
 
-#######################################################################
-
-# Kernel
-TARGET_KMODULES := true
-
-# Disable memcpy opt (for audio libraries)
-TARGET_CPU_MEMCPY_OPT_DISABLE := true
-
-# Fonts
-EXTENDED_FONT_FOOTPRINT := true
-
-# Vold
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/soc/11270000.usb3/musb-hdrc/gadget/lun%d/file
+# inherit from common umidigi's mt6737X
+-include device/umidigi/mt6737X-common/BoardConfigCommon.mk
