@@ -18,7 +18,8 @@
 LOCAL_PATH := device/umidigi/n383bt
 
 # Device board elements
-TARGET_IS_MT6737T := true
+TARGET_BOARD_PLATFORM := mt6737t
+TARGET_BOOTLOADER_BOARD_NAME := mt6737t
 include $(LOCAL_PATH)/board/*.mk
 
 # inherit from common umidigi's mt6737X
