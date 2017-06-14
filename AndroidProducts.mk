@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_n383bt.mk
+	$(LOCAL_DIR)/omni_GM6_s_sprout.mk

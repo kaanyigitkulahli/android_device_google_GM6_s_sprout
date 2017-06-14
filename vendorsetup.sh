@@ -1,5 +1,5 @@
 #
-# Copyright 2017 The AndroidOpenUmiProject Project
+# Copyright 2017 The Omni  Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 for var in eng user userdebug; do
-  add_lunch_combo omni_n383bt-$var
+  add_lunch_combo omni_GM6_s_sprout-$var
 done
