@@ -17,6 +17,9 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Inherit from shamrock device
+$(call inherit-product, device/google/GM6_s_sprout/device.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := GM6_s_sprout
 PRODUCT_NAME := full_GM6_s_sprout
