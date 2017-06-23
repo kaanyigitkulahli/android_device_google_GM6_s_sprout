@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
     factory_init.rc \
     meta_init.modem.rc \
     meta_init.rc \
-    twrp.fstab \
+    recovery.fstab \
     fstab.mt6735 \
     init.modem.rc \
     init.mt6735.rc \
