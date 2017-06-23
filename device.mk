@@ -22,13 +22,13 @@ PRODUCT_PACKAGES += \
     factory_init.rc \
     meta_init.modem.rc \
     meta_init.rc \
-    twrp.fstab \
+    recovery.fstab \
     fstab.mt6735 \
     init.modem.rc \
     init.mt6735.rc \
-    init.mt6745.usb.rc \
-    init.recovery.mt6735.rc 
-    
+    init.mt6735.usb.rc \
+    init.recovery.mt6735.rc
+
 # Product common configurations
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)    
