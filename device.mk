@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     meta_init.modem.rc \
     meta_init.rc \
     recovery.fstab \
-    fstab.mt6735 \
     init.modem.rc \
     init.mt6735.rc \
     init.mt6735.usb.rc \
