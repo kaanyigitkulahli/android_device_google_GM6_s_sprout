@@ -26,7 +26,7 @@ PRODUCT_PACKAGES += \
     fstab.mt6735 \
     init.modem.rc \
     init.mt6735.rc \
-    init.mt6745.usb.rc \
+    init.mt6735.usb.rc \
     init.recovery.mt6735.rc 
     
 # Product common configurations
